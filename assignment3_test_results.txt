@@ -1,0 +1,45 @@
+#Wesley Maya
+
+#Assignment 3
+
+#Q1
+triples("abcc")
+False
+triples("abbbcdeeggggg")
+True
+triples("1kss99-!eee")
+True
+
+#Q2
+countMe("z")
+'z1'
+countMe("aabbbccccdd")
+'a2b3c4d2'
+countMe("ttt4444")
+'t344'
+
+#Q3
+sum_odd_divisors(1)
+1
+sum_odd_divisors(-9)
+13
+sum_odd_divisors(26)
+14
+sum_odd_divisors(31)
+32
+sum_odd_divisors(-2001)
+2880
+sum_odd_divisors(3000)
+624
+
+#Q4
+encrypt("Hello, World")
+'dHlerlolWo ,'
+encrypt("54321")
+'15243'
+encrypt("John Wayne")
+'eJnoyhanW '
+encrypt(",'4'r")
+"r,''4"
+encrypt("whats the answer")
+'rwehwastnsa  teh'
