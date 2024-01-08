@@ -1,0 +1,56 @@
+#Test Inputs for Functions
+
+#Question 1
+reverse_int(123)
+321
+reverse_int(952)
+259
+reverse_int(694)
+496
+
+
+#Question 2
+finalMark(60,90,70,85,80)
+80.0
+finalMark(50,90.5,60,80,70)
+73.1
+finalMark(25,84,93,86,88)
+81.0
+
+
+#Question 3
+bibformat("J.K Rowling","Harry Potter","New York","Scholastic Corporation",1997)
+'J.K Rowling (1997). Harry Potter. New York: Scholastic Corporation.'
+
+bibformat("TahaHussein", "Days", "Egypt", "ARN", 1967)
+'TahaHussein (1967). Days. Egypt: ARN.'
+
+bibformat("Suzanne Collins","The Hunger Games","New York","Scholastic Corporation",2008)
+'Suzanne Collins (2008). The Hunger Games. New York: Scholastic Corporation.'
+
+
+#Question 4
+bibformatPrint()
+What's the title of this book?: Harry Potter
+What's the author's name?: J.K Rowling
+What's the year of publication?: 1997
+What's the publisher's name?: Scholastic Corporation
+What city is the publisher located in?: New York
+J.K Rowling (1997). Harry Potter. New York: Scholastic Corporation.
+
+bibformatPrint()
+What's the title of this book?: Days
+What's the author's name?: TahaHussein
+What's the year of publication?: 1967
+What's the publisher's name?: ARN
+What city is the publisher located in?: Eygpt
+TahaHussein (1967). Days. Eygpt: ARN.
+
+
+#Question 5
+travelTime(300,500)
+36.0
+travelTime(400,100)
+240.0
+travelTime(20.6,60)
+20.6
