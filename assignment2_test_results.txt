@@ -1,0 +1,67 @@
+#Question 1
+skate(30,-10)
+True
+skate(33.4,-0.6)
+False
+skate(11.1,-20)
+False
+skate(40,-13)
+True
+
+
+#Question 2
+alphaNote(100)
+'A+'
+alphaNote(86.3)
+'A'
+alphaNote(51)
+'D'
+alphaNote(23)
+'F'
+
+
+#Question 3
+alphaNoteVerif()
+What is your mark?: 101
+What is your mark?: 153.3
+What is your mark?: 90
+The letter you got is: A+
+Passed
+
+alphaNoteVerif()
+What is your mark?: -73
+What is your mark?: 40
+The letter you got is: E
+Failed
+
+
+#Question 4
+loops(13)
+1 3 5 7 9 11 13 
+13 11 9 7 5 3 1 
+
+loops(5)
+1 3 5 
+5 3 1
+
+loops(20)
+1 3 5 7 9 11 13 15 17 19 
+20 18 16 14 12 10 8 6 4 2 
+
+
+#Question 5
+tester()
+What is your password?: Uottawa2022
+This password does not meet all the requirements, try again
+
+tester()
+What is your password?: Uotaw#892
+Great, this password meets all the requirments!
+
+tester()
+What is your password?: 34Uota*#@?W
+This password does not meet all the requirements, try again
+
+tester()
+What is your password?: $W@ujo43PP
+Great, this password meets all the requirments!
